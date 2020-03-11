@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, shring-to-fit=no, user-scalable=no" />
+
+	<meta charset="utf-8" />
+	<title>TweetAnaliz</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/core.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/site-theme.css" />
+	<style>
+		.hot-title,
+		.trend-news > a.tn-item > i.tn-icon,
+		.classic-news > .cn-list > a.cn-list-item > i.cn-icon,
+		.slider#breaking-news,
+		#hot-news.slider > .slider-list > a.slider-item > span.news-title > i.material-icons,
+		header.material-header:before,
+		header.top-header > .container > a.top-logo > img,
+		header.top-header > .container > .top-search > form > button,
+		footer.bottom > .container > ul.social > li > a > i.social-icon {
+			background-color: #C62828;
+		}
+
+		header.material-header:after {
+			background-image: url(http://datatovalue.co.uk/WP/wp-content/uploads/2015/12/noun_21272-1024x1024.png);
+
+		}
+	</style>
+</head>
+<body>
+	<div class="cookie-alert">
+		<div class="container">
+			<p><strong>Cookies/çerezler</strong> özel bir deneyim sunarak ziyaretçilerimize daha iyi hizmet vermemizi ve daha faydalı bilgiler sunmak üzere kendi dahili amaçlarımız için kullanılacaktır.</p>
+			<a href="#" class="material-icons close">close</a>
+		</div>
+	</div>
+
+	<header class="top-header">
+		<div class="container">
+			<a class="top-logo" href="#">
+				<img alt="..." src="assets/img/logo.svg" />
+			</a>
+			<div class="top-search">
+				<form method="post" action="#">
+					<input type="text" name="search" placeholder="Haber Ara" />
+					<button data-focus=".top-search->find(input[name=search])" class="btn" type="submit">
+						<span class="material-icons">search</span>
+					</button>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<div class="slider" id="breaking-news">
+		<div class="container">
+			<a href="#" class="title">SON DAKİKA</a>
+			<div class="slider-list">
+				<a class="slider-item active" href="#"><strong>15:01</strong> Proin lobortis turpis vitae mauris finibus, vel commodo justo ultricies.</a>
+				<a class="slider-item" href="#"><strong>15:02</strong> Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</a>
+				<a class="slider-item" href="#"><strong>15:03</strong> Mauris vestibulum ligula nec maximus suscipit.</a>
+				<a class="slider-item" href="#"><strong>15:04</strong> Phasellus tempus nisl eget justo varius, ut malesuada nibh vehicula.</a>
+				<a class="slider-item" href="#"><strong>15:05</strong> Nam lobortis ante nec libero fermentum, in mollis nulla rutrum.</a>
+				<a class="slider-item" href="#"><strong>15:06</strong> Sed fermentum urna at cursus aliquam.</a>
+				<a class="slider-item" href="#"><strong>15:07</strong> Suspendisse semper dolor a posuere vestibulum.</a>
+				<a class="slider-item" href="#"><strong>15:08</strong> Nam pretium velit condimentum, efficitur risus in, fringilla purus.</a>
+				<a class="slider-item" href="#"><strong>15:09</strong> Praesent a turpis id augue elementum dignissim.</a>
+				<a class="slider-item" href="#"><strong>15:10</strong> Fusce sed erat at felis sollicitudin ornare.</a>
+			</div>
+			<div class="slider-nav">
+				<a href="#" data-action="prev" class="material-icons">keyboard_arrow_left</a>
+				<a href="#" data-action="next" class="material-icons">keyboard_arrow_right</a>
+			</div>
+		</div>
+	</div>
+
+	<header class="material-header">
+		<div class="container">
+			<h1 class="mh-title">EKONOMİ HABERLERİ</h1>
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="main-column col-lg-3 col-md-6">
+					<h6 class="hot-title">TREND HABERLER</h6>
+
+					<div class="trend-news">
+						<a class="tn-item" href="#">
+							<i class="tn-icon material-icons">play_arrow</i>
+							<img class="tn-image lazy" alt="..." data-src="data/GettyImages-634583072.0.jpg" />
+							<h4 class="tn-title">Euroleague Çeyrek Final Serisi</h4>
+						</a>
+						<a class="tn-item" href="#">
+							<i class="tn-icon material-icons">photo_library</i>
+							<img class="tn-image lazy" alt="..." data-src="data/GettyImages-634583072.0.jpg" />
+							<h4 class="tn-title">Euroleague Çeyrek Final Serisi</h4>
+						</a>
+						<a class="tn-item" href="#">
+							<i class="tn-icon material-icons">show_chart</i>
+							<img class="tn-image lazy" alt="..." data-src="data/GettyImages-634583072.0.jpg" />
+							<h4 class="tn-title">Euroleague Çeyrek Final Serisi</h4>
+						</a>
+						<a class="tn-item" href="#">
+							<i class="tn-icon material-icons">photo_library</i>
+							<img class="tn-image lazy" alt="..." data-src="data/GettyImages-634583072.0.jpg" />
+							<h4 class="tn-title">Euroleague Çeyrek Final Serisi</h4>
+						</a>
+					</div>
+				</div>
+				<div class="main-column col-lg-9 col-md-6">
+					<h6 class="hot-title">MANŞET HABERLER</h6>
+
+					<div class="slider" id="hot-news">
+						<div class="slider-list embed-responsive embed-responsive-21by9">
+							<a data-src="data/GettyImages-634583072.0.jpg" class="embed-responsive-item slider-item active" href="#">
+								<span class="news-title">
+									<i class="material-icons">photo_library</i>
+									Euroleague Çeyrek Final Serisi
+								</span>
+							</a>
+							<a data-src="data/GettyImages-634583072.0.jpg" class="embed-responsive-item slider-item" href="#">
+								<span class="news-title">
+									<i class="material-icons">play_arrow</i>
+									Euroleague Çeyrek Final Serisi
+								</span>
+							</a>
+						</div>
+						<div class="slider-nav">
+							<a href="#" data-action="prev" class="material-icons">keyboard_arrow_left</a>
+							<a href="#" data-action="next" class="material-icons">keyboard_arrow_right</a>
+						</div>
+					</div>
+
+					<h6 class="hot-title">HABERLER</h6>
+
+					<div class="classic-news">
+						<div class="cn-list">
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+							<a href="#" class="cn-list-item">
+								<i class="cn-icon material-icons">play_arrow</i>
+								<img src="data/GettyImages-634583072.0.jpg" class="cn-item-image" alt="..." />
+								<div class="cn-item-details">
+									<h4 class="cn-item-title">Euroleague Çeyrek Final Serisi</h4>
+									<p class="cn-item-lead">Praesent ac risus pellentesque, dignissim nibh eget, accumsan quam.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bottom">
+		<div class="container">
+			<div class="copyright">
+				<p>© 2018 TweetAnaliz | tüm hakları saklıdır.</p>
+
+				<p>TweetAnaliz.com haber içerikleri kaynak gösterilmeden alıntı yapılamaz, Kanuna aykırı ve izinsiz olarak kopyalanamaz, başka yerde yayınlanamaz.</p>
+				<p>
+					<a href="#">Künye</a>
+					<a href="#">İletişim</a>
+					<a href="#">Veri Politikası</a>
+					<a href="#">E-posta Aboneliği</a>
+				</p>
+			</div>
+			<ul class="social" data-text="Sosyal Medya">
+				<li>
+					<a href="#">
+						<i class="social-icon icon-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="social-icon icon-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="social-icon icon-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="social-icon icon-rss"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.lazy.min.js"></script>
+	<script src="assets/js/core.js"></script>
+	<script>
+	/* --- category news --- */
+
+	$('.nc-list > .nc-list-item').each(function() {
+		var __ = $(this);
+
+		if (__.hasClass('active'))
+		{
+			__.children('img.nc-image').attr('src', __.children('img.nc-image').data('src'))
+		}
+	}).on('mouseover', function() {
+		var __ = $(this);
+
+		__.parent('.nc-list').children('.nc-list-item').removeClass('active')
+		__.addClass('active').children('img.nc-image').attr('src', __.children('img.nc-image').data('src'))
+	})
+	</script>
+</body>
+</html>

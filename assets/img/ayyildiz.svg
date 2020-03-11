@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: .4;
+      }
+    </style>
+  </defs>
+  <path id="Elips_1" data-name="Elips 1" class="cls-1" d="M125,48a67,67,0,1,0,62.063,92.248,77.973,77.973,0,1,1-52.219-91.522A67.515,67.515,0,0,0,125,48Z"/>
+  <path id="Çokgen_1" data-name="Çokgen 1" class="cls-1" d="M191.684,42.52l4.03,24.351L219.9,71.805,197.983,83.162l2.78,24.525L183.19,90.355l-22.465,10.222,11.053-22.068L155.114,60.3l24.4,3.693Z"/>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="1080" viewBox="0 0 240 1080">
+<defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c1c1c;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-4);
+      }
+
+      .cls-3 {
+        fill: #01579b;
+        filter: url(#filter-5);
+      }
+    </style>
+    <filter id="filter" x="-35" y="-33" width="311" height="1151" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="-35" y="-33" width="311" height="949" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-5" x="-35" y="-33" width="311" height="904" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Şekil_5" data-name="Şekil 5" class="cls-1" d="M0,1080H240V0H0V1080Z"/>
+  <path id="Şekil_4" data-name="Şekil 4" class="cls-1" d="M160,1080H0V0H240V907Z"/>
+  <path id="Şekil_3" data-name="Şekil 3" class="cls-1" d="M32,1080L240,0H0V1080H32Z"/>
+  <path id="Şekil_2" data-name="Şekil 2" class="cls-2" d="M0,382L240,878V0H0V382Z"/>
+  <path id="Şekil_1" data-name="Şekil 1" class="cls-3" d="M0,0H145l95,274V833L0,182V0Z"/>
+</svg>
